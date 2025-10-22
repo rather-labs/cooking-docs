@@ -1,0 +1,146 @@
+---
+type: meeting-note
+title: "Daily Standup - July 9, 2025"
+meeting_type: "Daily Standup"
+date: 2025-07-09
+attendees: ["Eduardo Yuschuk", "Ramiro Carracedo", "Santiago Gimenez", "Luis Rivera", "Florencia Redondo", "Lucas Cufré", "Martin Aranda", "Mauricio Hernán Cabrera", "Marko Jauregui", "Federico Caffaro", "Angel Rangel"]
+duration: "22 minutes"
+language: "English (translated from Spanish)"
+translation_date: "2025-10-20"
+status: "Translated and Structured"
+tags: ["daily-standup", "team-sync", "sprint", "july-2025"]
+---
+
+# Daily Standup - July 9, 2025
+
+## Meeting Details
+- **Date:** July 9, 2025
+- **Time:** 09:29 - 09:52 (GMT-3)
+- **Duration:** 22 minutes
+- **Meeting Type:** Daily Standup
+- **Attendees:** Eduardo Yuschuk, Ramiro Carracedo, Santiago Gimenez, Luis Rivera, Florencia Redondo, Lucas Cufré, Martin Aranda, Mauricio Hernán Cabrera, Marko Jauregui, Federico Caffaro, Angel Rangel
+- **Language:** English (Translated from Spanish)
+
+## Summary
+The team discussed daily task updates, including completion of wallet popover and UI components work. Key discussions covered Jupiter integration readiness, database performance improvements, and potential integration of Let's Bonk Fan into the indexer as a new launchpad.
+
+## Team Updates
+
+### Luis Rivera
+**Completed:**
+- Finished wallet popover component
+- Completed top section of Hyperliquid UI
+- Sent PR for Create Perpetual UI
+
+**In Progress:**
+- Polishing top section of Hyperliquid
+- Working on right panel for Hyperliquid
+
+**Blockers:**
+- None mentioned
+
+### Mauricio Hernán Cabrera
+**Completed:**
+- Reviewed Martin's PRs
+- Made changes to alert component
+- Created tabs component with line and square group variants
+- Built script to change import/export paths from absolute to relative
+- Completed chips component
+
+**In Progress:**
+- Working on Hatom tasks (1 hour)
+- Animations integration for components
+
+**Blockers:**
+- None mentioned
+
+### Martin Aranda
+**Completed:**
+- Fixed Storybook issues with direct linking from utils
+
+**In Progress:**
+- Component review process with Lucas
+
+**Notes:**
+- Established process where Lucas reviews components in Storybook once finalized and merged
+
+### Lucas Cufré
+**Key Points:**
+- Clarified that alerts are inline, not toast-type notifications
+- Alerts are for specific situations like forms, not action results
+- Emphasized importance of tracking Hatom hours as they're billed as extras to client
+- Cooking hours need to be recovered or managed internally
+
+### Federico Caffaro
+**Completed:**
+- Tracking deposits in Unit
+- Working on SOL to USDC conversion
+
+**In Progress:**
+- Dealing with liquidity issues in Devnet Solana
+- Managing signature limitations in Turkey
+
+**Blockers:**
+- Liquidity issues in Devnet Solana
+- Limited signatures in Turkey (25 signatures limit on free accounts)
+
+### Ramiro Carracedo
+**Completed:**
+- Jupiter integration ready (pending some fixes)
+- Significant database performance improvements with batch inserts
+- Hyperliquid deployment should work (needs environment variables)
+
+**In Progress:**
+- Slow query optimization through index redesign
+- Migration of mints and remaining features
+
+**Notes:**
+- Diamond Hands, Snipers, Insiders won't be available initially
+- Production deployment issues with price scales need addressing
+
+### Eduardo Yuschuk
+**Completed:**
+- Working on infinite value error fixes
+- Implementing protocol value verification filters
+
+**In Progress:**
+- Jupiter price issues resolution
+- Sending original amounts and scaled SOL unit prices
+
+**Blockers:**
+- None mentioned
+
+## Key Discussion Points
+
+### Let's Bonk Fan Integration
+- Lucas Cufré raised the possibility of integrating Let's Bonk Fan into the indexer as a new launchpad
+- Ramiro confirmed tokens traded on Jupiter would appear in the view
+- Full integration would require specific protocol indexing, not just relying on Jupiter or Hello Moon
+- Market share: Let's Bonk has 49% vs Pump's 30-something%
+
+### Alert Components Clarification
+- Lucas clarified alerts are inline, not toast-type
+- Used for specific situations like forms
+- Different from action result notifications
+
+### Billing and Hours Tracking
+- Hatom hours are billed as extras to client
+- Cooking hours need to be recovered internally
+- Team needs visibility when switching between projects
+
+## Action Items
+- [ ] Add environment variables for Hyperliquid deployment - @Martin
+- [ ] Fix production price scaling issues - @Team
+- [ ] Evaluate Let's Bonk Fan integration requirements - @Lucas
+- [ ] Track and report Hatom hours in channel - @Team
+- [ ] Optimize slow queries through index redesign - @Ramiro
+
+## Notes
+- Database performance significantly improved with batch inserts
+- Jupiter integration nearly complete but some values will remain at zero
+- Team considering hybrid mechanism for token support depending on Hello Moon and Jupiter
+
+---
+*Meeting notes generated by Gemini AI and translated to English*
+*Original meeting date: July 9, 2025*
+*Translation completed: 2025-10-20*

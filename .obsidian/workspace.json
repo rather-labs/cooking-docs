@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "c918ff8efac9ea96",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ad565f8e15467e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6538d84d4d301ad9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d18be592881db655",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fda959700c85268",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bc6d82b75bc5535",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6b3b81fda4c45cc8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ea4c7561050c755d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "dc9f7b3e90dbabb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "b603a58896698760",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c5f2a0c55ac99ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04-knowledge-base/business/requirements/portfolio-wide-tpsl.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for portfolio-wide-tpsl"
+            }
+          },
+          {
+            "id": "cb6bc166743dd3d9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04-knowledge-base/business/requirements/portfolio-wide-tpsl.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from portfolio-wide-tpsl"
+            }
+          },
+          {
+            "id": "8247d0b884a4af59",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b9237a21b214a859",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04-knowledge-base/business/requirements/portfolio-wide-tpsl.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of portfolio-wide-tpsl"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "6538d84d4d301ad9",
+  "lastOpenFiles": [
+    "04-knowledge-base/business/_index.md",
+    "04-knowledge-base/_index.md",
+    "04-knowledge-base/business/requirements/portfolio-wide-tpsl.md",
+    "02-decisions/2025-10-15-jupiter-primary-router.md",
+    "02-decisions/2025-09-26-microservices-by-algorithm.md",
+    "02-decisions/2025-09-23-indexer-microservices-protocol.md",
+    "02-decisions/2025-08-13-multilevel-referral-program.md",
+    "02-decisions/2025-10-06-clickhouse-two-client-architecture.md",
+    "04-knowledge-base/business/requirements/trading-methods.md",
+    "01-foundation/glossary.md",
+    "02-decisions/2025-07-04-turnkey-wallet-management.md",
+    "02-decisions/2025-09-04-multi-az-deployment-high-availability.md",
+    "02-decisions/2025-10-20-working-guards-on-call-rotation.md",
+    "02-decisions/2025-08-11-feature-freeze-for-stability.md",
+    "02-decisions/2025-08-11-weekly-sprint-calls-with-client.md",
+    "02-decisions/2025-09-04-aws-ecs-over-eks-container-orchestration.md",
+    "02-decisions/2025-08-11-september-beta-launch-timeline.md",
+    "02-decisions/2025-08-20-zero-bridge-fees-strategic-decision.md",
+    "02-decisions/2025-08-11-closed-beta-referral-only-access.md",
+    "02-decisions/2025-10-16-jupiter-transaction-optimization.md",
+    "02-decisions/2025-10-10-transaction-security-validation.md",
+    "04-knowledge-base/operational/processes/2025-10-21-working-guards-24-7-support-proposal.md",
+    "02-decisions/ADR-303-working-guards-on-call-rotation.md",
+    "06-meetings/2025-10/2025-10-20-weekly-sync.md",
+    "08-documents-to-parse/Cooking Weekly Sync 20251020.md",
+    "04-knowledge-base/technical/_index.md",
+    "scripts/process_sync_z_meetings.py",
+    "07-archive/processed-source-docs/2025-10-20-daily-standups-batch6",
+    "06-meetings/2025-07/daily-standups",
+    "technical",
+    "06-meetings/2025-10",
+    "process_sync_z_meetings.py",
+    "00-PROJECT-INDEX.md.tmp.26992.1760984100862",
+    "06-meetings/2025-09",
+    "06-meetings/2025-08",
+    "06-meetings/2025-07"
+  ]
+}

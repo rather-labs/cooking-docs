@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Sensitive data
+credentials.json
+secrets.yaml
+*.key
+*.pem
+
+# Processing folders (optional - comment out if you want to track these)
+08-documents-to-parse/*.docx
+08-documents-to-parse/*.pdf
+08-documents-to-parse/*.txt
+!08-documents-to-parse/README.md
+
+# Archive large files (optional)
+# 07-archive/

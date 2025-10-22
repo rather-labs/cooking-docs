@@ -1,0 +1,142 @@
+---
+title: Daily Standup - 2025-09-10
+type: meeting-note
+meeting_type: Daily Standup
+date: 2025-09-10
+attendees: [Eduardo Yuschuk, Santiago Gimenez, Luis Rivera, Florencia Redondo, Lucas Cufré, Martin Aranda, Marko Jauregui, Federico Caffaro, Javier Grajales, Byron Chavarria, Esteban Restrepo, German Derbes Catoni, Marcos Tacca]
+duration: 47 minutes
+language: Spanish (translated to English)
+source_file: Daily - Cooking.gg_ 2025_09_10 09_27 GMT-03_00 - Notas de Gemini.md
+---
+
+# Daily Standup - 2025-09-10
+
+## Meeting Information
+- **Type:** Daily Standup
+- **Date:** September 10, 2025
+- **Duration:** 47 minutes
+- **Platform:** Google Meet
+- **Language:** Spanish (translated to English)
+
+## Attendees
+- Eduardo Yuschuk
+- Santiago Gimenez
+- Luis Rivera
+- Florencia Redondo
+- Lucas Cufré
+- Martin Aranda
+- Marko Jauregui
+- Federico Caffaro
+- Javier Grajales
+- Byron Chavarria
+- Esteban Restrepo
+- German Derbes Catoni
+- Marcos Tacca
+
+## Summary
+Critical week with demo on Friday. Luis Rivera completed Market Orders with all edge cases handled. Martin Aranda conducted successful dry run of production deployment. Federico Caffaro fixed last Perpetuals bugs, feature ready for demo. German Derbes Catoni polished advanced orders UI based on feedback. Santiago Gimenez completed final design review with no major issues. Esteban Restrepo set up comprehensive monitoring for production. Eduardo Yuschuk fine-tuned alert system reducing false positives. Byron Chavarria received positive feedback from TestFlight users. Javier Grajales found and fixed three critical bugs. Team discussed demo rehearsal success, production readiness checklist, and final bug triage before launch.
+
+## Team Updates
+
+### Luis Rivera
+- **Status:** Market Orders complete with edge cases
+- **Progress:** All validation and error handling implemented
+- **Blockers:** None
+- **Next Steps:** Demo preparation and standby for issues
+
+### Martin Aranda
+- **Status:** Production deployment tested
+- **Progress:** Dry run successful, rollback tested
+- **Blockers:** None
+- **Next Steps:** Final deployment preparation
+
+### Federico Caffaro
+- **Status:** Perpetuals ready for demo
+- **Progress:** Last bugs fixed, performance optimized
+- **Blockers:** None
+- **Next Steps:** Support demo and monitor
+
+### German Derbes Catoni
+- **Status:** Advanced orders polished
+- **Progress:** UI improvements based on team feedback
+- **Blockers:** None
+- **Next Steps:** Final testing before demo
+
+### Santiago Gimenez
+- **Status:** Design review complete
+- **Progress:** All screens aligned with latest designs
+- **Blockers:** None
+- **Next Steps:** Support any last-minute UI fixes
+
+### Esteban Restrepo
+- **Status:** Monitoring configured
+- **Progress:** Dashboards ready, alerts configured
+- **Blockers:** None
+- **Next Steps:** Monitor during demo
+
+### Eduardo Yuschuk
+- **Status:** Alert system optimized
+- **Progress:** False positives reduced by 80%
+- **Blockers:** None
+- **Next Steps:** Monitor alert performance
+
+### Byron Chavarria
+- **Status:** Mobile app improvements
+- **Progress:** Positive TestFlight feedback, minor fixes done
+- **Blockers:** None
+- **Next Steps:** Prepare for app store submission
+
+### Javier Grajales
+- **Status:** Critical bugs fixed
+- **Progress:** Three showstoppers resolved, system stable
+- **Blockers:** None
+- **Next Steps:** Final smoke tests
+
+## Key Discussion Points
+
+### Demo Rehearsal Success
+- Thursday's dry run went smoothly
+- All features demonstrated without issues
+- Team confident for Friday's client demo
+- Backup plans in place for any issues
+
+### Production Readiness
+- All items on deployment checklist completed
+- Monitoring and alerting fully configured
+- Support team trained on new features
+- Documentation updated and available
+
+### Final Bug Triage
+- Three critical bugs found and fixed
+- No known showstoppers remaining
+- Minor UI issues deprioritized
+- Focus on stability for demo
+
+### Performance Metrics
+- System meeting all performance targets
+- Load testing successful at 2x expected capacity
+- Database queries optimized
+- Cache performing as expected
+
+## Action Items
+- [ ] All Team: Be available during Friday's demo
+- [ ] Luis Rivera: Standby for any Market Orders questions
+- [ ] Martin Aranda: Execute production deployment after demo
+- [ ] Federico Caffaro: Monitor Perpetuals during demo
+- [ ] German Derbes Catoni: Support advanced orders demonstration
+- [ ] Javier Grajales: Run final smoke tests Friday morning
+- [ ] Lucas Cufré: Lead client demo presentation
+
+## Technical Details
+- **System Stability:** 72 hours without critical issues
+- **Performance:** All endpoints under 300ms response time
+- **Load Capacity:** Tested at 2000 concurrent users
+- **Bug Count:** Zero critical, 5 minor issues remaining
+
+## Links & References
+- Demo Environment: Stable and ready
+- Production Checklist: All items complete
+- Support Documentation: Updated and published
+
+---
+*Source: Daily standup meeting notes auto-generated by Gemini and translated to English*
