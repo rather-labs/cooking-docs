@@ -102,19 +102,35 @@ No strict rules here - use whatever names make sense to you:
 
 The structured documents will follow proper naming conventions after parsing.
 
+
 ## What Happens to Files
 
-**After successful processing:**
--  Original file is **DELETED** from this folder
--  Content is preserved in properly structured documents
--  All relevant indexes are updated
--  You receive a summary of what was created
+### ✅ After Successful Processing (Standard Workflow)
 
-**If processing fails or is incomplete:**
-- � File remains in this folder
-- � You receive notification of issues
-- � Manual intervention may be needed
+**IMPORTANT: Original files are ALWAYS deleted after successful processing!**
 
+-  ✅ Original file is **DELETED** from this folder (mandatory)
+-  ✅ Content is preserved in properly structured documents
+-  ✅ All relevant indexes are updated
+-  ✅ You receive a summary of what was created and deleted
+-  📁 Optional: Backup created in `processed/YYYY-MM/` before deletion
+
+**Why delete?**
+- Keeps this folder clean and ready for new content
+- Prevents duplicate processing
+- Ensures you work with structured content, not raw files
+- All information is preserved in proper documentation
+
+### ⚠️ If Processing Cannot Complete
+
+**Files are moved to `review-needed/` subfolder (NOT deleted):**
+- ⚠️ Content was unclear or ambiguous
+- ⚠️ Critical information missing (dates, context)
+- ⚠️ Processing encountered an error
+- ⚠️ File format not supported
+- ⚠️ Unclear if should update existing or create new document
+
+You'll receive notification explaining why the file needs manual review.
 ## Best Practices
 
 ### Provide Context When Possible

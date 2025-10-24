@@ -309,7 +309,7 @@ The `/maintenance-daily` command automatically processes all files in `08-docume
 3. Creates or updates documents using proper templates
 4. Validates quality and enforces structure rules
 5. Updates all indexes
-6. Deletes processed files or flags for review
+6. **ALWAYS deletes successfully processed files from `08-documents-to-parse/`** or flags for review
 
 **To use:**
 Simply place files in `08-documents-to-parse/` and run `/maintenance-daily`
@@ -514,12 +514,21 @@ Before finishing, verify:
 
 #### Step 7: Clean Up
 
+**CRITICAL: After successful processing, ALWAYS delete the original file from `08-documents-to-parse/`**
+
 **After successful processing:**
 
-- Delete the original file from `08-documents-to-parse/`
+- **DELETE the original file from `08-documents-to-parse/`** - This is mandatory
+- Move to `08-documents-to-parse/processed/YYYY-MM/` as backup before deleting (optional)
 - Confirm all content has been properly structured
 - Verify no information was lost
-- Files problematic documents in `08-documents-to-parse/review-needed/` with explanation
+- For problematic documents: Move to `08-documents-to-parse/review-needed/` with explanation (DO NOT delete these)
+
+**Important:**
+- Original files should NEVER remain in `08-documents-to-parse/` after successful processing
+- Only files moved to `review-needed/` should remain unprocessed
+- Always verify content was extracted before deleting
+- If unsure about deletion, move to `review-needed/` instead
 
 ### Content Extraction Patterns
 
@@ -631,11 +640,15 @@ After processing documents, `/maintenance-daily` provides:
    - [Specific question needing clarification]
    ```
 
-3. **Deleted files:**
+3. **Deleted files (ALWAYS included after successful processing):**
 
    ```
-   Processed and removed:
+   ✅ Processed and deleted:
    - 08-documents-to-parse/original-file.md
+   - 08-documents-to-parse/another-file.docx
+
+   Note: Original files have been successfully archived to:
+   - 08-documents-to-parse/processed/2025-10/original-file.md (optional backup)
    ```
 
 4. **Flagged for review:**
@@ -1371,14 +1384,21 @@ When files are uploaded or placed in `08-documents-to-parse/`:
    - Create structured documents
    - Update indexes
 
-4. **Report results:**
+4. **Clean up (MANDATORY):**
+   - **DELETE successfully processed files from `08-documents-to-parse/`**
+   - Move problematic files to `08-documents-to-parse/review-needed/`
+   - Optionally backup to `08-documents-to-parse/processed/YYYY-MM/` before deletion
+
+5. **Report results:**
    - Files processed count
    - Created vs updated
    - Decisions extracted
    - Action items identified
+   - **Files deleted (list all successfully processed files)**
    - Files flagged for review
 
 **CRITICAL: Always check content for timestamps, not just filename!**
+**CRITICAL: Always delete original files after successful processing!**
 
 ### Batch Processing Output
 
@@ -1394,6 +1414,7 @@ File: project-notes.docx
 ├── Reason: Similar meeting note from same date already existed
 ├── Added: 2 new action items, 1 decision
 ├── Extracted: 1 decision (ADR-045)
+├── Cleanup: ✅ Original file deleted from 08-documents-to-parse/
 └── Status: ✅ Complete
 
 File: 2024-10-15-sprint-sync.docx
@@ -1403,6 +1424,7 @@ File: 2024-10-15-sprint-sync.docx
 ├── Created: 06-meetings/2024-10/2024-10-15-sprint-sync.md
 ├── Extracted: 2 decisions (ADR-046, ADR-047)
 ├── Action Items: 5
+├── Cleanup: ✅ Original file deleted from 08-documents-to-parse/
 └── Status: ✅ Complete
 
 File: feature-request.md
@@ -1411,6 +1433,7 @@ File: feature-request.md
 ├── Created: 04-knowledge-base/business/requirements/user-notifications.md
 ├── Structure: 4-section format (Executive Summary, Technical Considerations, Acceptance Criteria, Permissions)
 ├── Extracted: Only explicitly stated information
+├── Cleanup: ✅ Original file deleted from 08-documents-to-parse/
 └── Status: ✅ Complete
 
 File: technical-spec.md
@@ -1418,6 +1441,7 @@ File: technical-spec.md
 ├── Action: Created new document
 ├── Created: 04-knowledge-base/technical/architecture/api-design.md
 ├── Updated: technical index, glossary
+├── Cleanup: ✅ Original file deleted from 08-documents-to-parse/
 └── Status: ✅ Complete
 
 File: unclear-notes.txt
@@ -1436,7 +1460,8 @@ Summary:
 📝 1 translation performed (Spanish)
 🎯 Timestamp detection found 1 transcript that would have been missed by filename alone
 ✅ Requirement doc used mandatory 4-section structure with only stated information
-⚠️ 1 file needs manual review
+🗑️ Deleted 4 original files from 08-documents-to-parse/ after successful processing
+⚠️ 1 file needs manual review (moved to review-needed/, NOT deleted)
 ```
 
 ### Output After Processing
@@ -1470,6 +1495,11 @@ Updated Indexes:
 - 06-meetings/_meetings-index.md
 - 02-decisions/_decisions-index.md
 - 00-PROJECT-INDEX.md
+
+Files Deleted After Processing:
+- 08-documents-to-parse/original-file.md ✅
+- 08-documents-to-parse/another-file.docx ✅
+  (All successfully processed files have been removed from the parse folder)
 ```
 
 #### 2. Action Items Summary

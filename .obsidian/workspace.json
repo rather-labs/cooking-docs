@@ -11,10 +11,14 @@
             "id": "6538d84d4d301ad9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04-knowledge-base/technical/error-messages-reference-guide.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "error-messages-reference-guide"
             }
           }
         ]
@@ -168,6 +172,11 @@
   },
   "active": "6538d84d4d301ad9",
   "lastOpenFiles": [
+    "08-documents-to-parse/processed/2025-10/Number representation.md",
+    "08-documents-to-parse/processed/2025-10",
+    "08-documents-to-parse/processed",
+    "08-documents-to-parse/Number representation.md",
+    "04-knowledge-base/technical/number-normalization-schema.md",
     "04-knowledge-base/business/_index.md",
     "04-knowledge-base/_index.md",
     "04-knowledge-base/business/requirements/portfolio-wide-tpsl.md",
@@ -191,9 +200,6 @@
     "02-decisions/2025-10-10-transaction-security-validation.md",
     "04-knowledge-base/operational/processes/2025-10-21-working-guards-24-7-support-proposal.md",
     "02-decisions/ADR-303-working-guards-on-call-rotation.md",
-    "06-meetings/2025-10/2025-10-20-weekly-sync.md",
-    "08-documents-to-parse/Cooking Weekly Sync 20251020.md",
-    "04-knowledge-base/technical/_index.md",
     "scripts/process_sync_z_meetings.py",
     "07-archive/processed-source-docs/2025-10-20-daily-standups-batch6",
     "06-meetings/2025-07/daily-standups",
@@ -201,8 +207,6 @@
     "06-meetings/2025-10",
     "process_sync_z_meetings.py",
     "00-PROJECT-INDEX.md.tmp.26992.1760984100862",
-    "06-meetings/2025-09",
-    "06-meetings/2025-08",
-    "06-meetings/2025-07"
+    "06-meetings/2025-09"
   ]
 }
