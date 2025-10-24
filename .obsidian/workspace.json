@@ -172,6 +172,11 @@
   },
   "active": "6538d84d4d301ad9",
   "lastOpenFiles": [
+    "04-knowledge-base/technical/backend-error-handling-guide.md",
+    "04-knowledge-base/technical/backend-error-messages-comprehensive-report.md",
+    "logs/daily-parse-2025-10-24-094535.log",
+    "scripts/daily-parse.sh",
+    "08-documents-to-parse/Backend Error Messages Report.md",
     "08-documents-to-parse/processed/2025-10/Number representation.md",
     "08-documents-to-parse/processed/2025-10",
     "08-documents-to-parse/processed",
@@ -197,16 +202,11 @@
     "02-decisions/2025-08-20-zero-bridge-fees-strategic-decision.md",
     "02-decisions/2025-08-11-closed-beta-referral-only-access.md",
     "02-decisions/2025-10-16-jupiter-transaction-optimization.md",
-    "02-decisions/2025-10-10-transaction-security-validation.md",
-    "04-knowledge-base/operational/processes/2025-10-21-working-guards-24-7-support-proposal.md",
-    "02-decisions/ADR-303-working-guards-on-call-rotation.md",
     "scripts/process_sync_z_meetings.py",
     "07-archive/processed-source-docs/2025-10-20-daily-standups-batch6",
     "06-meetings/2025-07/daily-standups",
     "technical",
     "06-meetings/2025-10",
-    "process_sync_z_meetings.py",
-    "00-PROJECT-INDEX.md.tmp.26992.1760984100862",
-    "06-meetings/2025-09"
+    "process_sync_z_meetings.py"
   ]
 }

@@ -11,7 +11,8 @@ tags:
   - user-experience
   - client-side
 related_documents:
-  - backend-error-messages-displayed-in-frontend.md
+  - backend-error-handling-guide.md
+  - error-messages-reference-guide.md
 ---
 
 # Frontend-Only Error Messages

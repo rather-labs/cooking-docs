@@ -2,7 +2,7 @@
 title: Technical Knowledge Index
 type: index
 date: 2025-10-17
-last-updated: 2025-10-20
+last-updated: 2025-10-24
 status: active
 summary: |
   Index of technical documentation including architecture, APIs, and infrastructure.
@@ -13,6 +13,15 @@ summary: |
 ## User Documentation
 - [Platform User Documentation](platform-user-documentation.md) - Complete user guide covering all platform features including Kitchen, Token Details, Wallet Management, Trading Methods, and more
 - [GitBook Index](gitbook-index.md) - Documentation structure and navigation index for the platform's public-facing documentation
+
+## Error Handling Documentation
+- [Backend Error Handling Guide](backend-error-handling-guide.md) - **Complete unified guide** combining endpoint-by-endpoint error catalog with frontend implementation patterns, code examples, and recommendations (v2.0)
+- [Frontend-Only Error Messages](frontend-only-error-messages.md) - Complete catalog of frontend validation and error messages
+- [Error Messages Reference Guide](error-messages-reference-guide.md) - Single spreadsheet of all 141+ error messages organized by endpoint, source, and domain
+
+## Technical Reference
+- [Data Explanations](data-explanations.md) - Detailed explanations of platform metrics and calculations
+- [Number Normalization Schema](number-normalization-schema.md) - Comprehensive documentation of number formatting rules
 
 ## [Architecture](architecture/)
 System design, architectural patterns, and design principles

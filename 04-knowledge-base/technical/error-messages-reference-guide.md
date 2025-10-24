@@ -2,30 +2,57 @@
 title: Error Messages Reference Guide
 type: technical-reference
 date: 2025-10-23
+last-updated: 2025-10-24
 status: active
-summary: Single comprehensive spreadsheet of all error messages in the application, organized by endpoint, source (backend/frontend), domain, error reason, and examples for easy human readability and troubleshooting.
+summary: Quick reference spreadsheet of all 141 error messages in the application, organized by endpoint, source (backend/frontend), domain, error reason, and examples. Designed for rapid lookup during troubleshooting, testing, and support activities.
 tags:
   - error-handling
   - reference
   - troubleshooting
   - user-experience
   - debugging
+  - quick-reference
 related_documents:
-  - backend-error-messages-displayed-in-frontend.md
+  - backend-error-handling-guide.md
   - frontend-only-error-messages.md
 ---
 
 # Error Messages Reference Guide
 
-A single, comprehensive spreadsheet cataloging all 134+ error messages in the application.
+**Quick Reference Spreadsheet** | 141 Error Messages Cataloged
+
+This document provides a **quick-lookup spreadsheet** of all error messages in the application. For detailed information about error handling patterns, implementation details, and recommendations, see the [Backend Error Handling Guide](backend-error-handling-guide.md).
+
+## Purpose & Audience
+
+**This Document Is For:**
+- 🔍 **Support Teams** - Quick lookup of error messages users report
+- 🧪 **QA/Testing** - Reference for test case validation
+- 🐛 **Debugging** - Find which component/endpoint causes specific errors
+- 📊 **Analytics** - Error message catalog for monitoring dashboards
+
+**For Implementation Details, See:**
+- [Backend Error Handling Guide](backend-error-handling-guide.md) - Complete error handling guide with code patterns and recommendations
+- [Frontend-Only Error Messages](frontend-only-error-messages.md) - Client-side validation details
+
+---
 
 ## How to Use This Spreadsheet
 
-- **Search**: Use Cmd/Ctrl+F to find specific errors
+### Quick Search Methods
+
+- **Search by Error Text**: Use Cmd/Ctrl+F to find the exact error message a user reported
 - **Filter by Domain**: Look for domain names (e.g., "Limit Orders", "Wallet Management")
-- **Filter by Source**: Search "Backend" or "Frontend"
+- **Filter by Source**: Search "Backend" or "Frontend" to narrow scope
 - **Find by Endpoint**: Search for API routes (e.g., "/limit-orders")
 - **Locate Code**: Use "File Reference" column to find implementation
+
+### Common Use Cases
+
+1. **User Reports Error**: Search for error text → Find endpoint → Reference guide for details
+2. **Testing Endpoint**: Search for endpoint → See all possible errors → Create test cases
+3. **Code Review**: Use file reference → Verify error handling matches specification
+4. **Support Ticket**: Search error → Find reason/context → Provide solution to user
 
 ---
 
@@ -284,24 +311,28 @@ A single, comprehensive spreadsheet cataloging all 134+ error messages in the ap
 ## Using This Reference
 
 ### For Developers
-1. Search by **File Reference** to find code location
-2. Use **#** column for quick reference in discussions
-3. Check **Display Type** to know how error appears to users
+1. **Quick Lookup**: Search by **File Reference** to find code location
+2. **Team Discussion**: Use **#** column for quick reference in PRs and code reviews
+3. **UX Verification**: Check **Display Type** to know how error appears to users
+4. **Implementation Details**: See [Backend Error Handling Guide](backend-error-handling-guide.md) for code patterns and best practices
 
 ### For QA/Testing
-1. Filter by **Domain** to organize test cases
-2. Verify **Example Error Message** appears as specified
-3. Test both **Backend** and **Frontend** error sources
+1. **Test Planning**: Filter by **Domain** to organize test cases
+2. **Validation**: Verify **Example Error Message** appears exactly as specified
+3. **Coverage**: Test both **Backend** and **Frontend** error sources
+4. **Edge Cases**: Reference the guide for error conditions and triggers
 
 ### For Support
-1. Search user's error message in **Example Error Message** column
-2. Check **Error Reason** for context
-3. Reference common patterns section for solutions
+1. **Error Lookup**: Search user's error message in **Example Error Message** column
+2. **Root Cause**: Check **Error Reason** for context and cause
+3. **Solutions**: Reference common patterns section for standard resolutions
+4. **Escalation**: Use file reference to provide detailed info to engineering
 
 ### For Product/UX
-1. Review **Display Type** for consistency
-2. Check error message clarity and helpfulness
-2. Identify areas needing better error messages
+1. **Consistency Audit**: Review **Display Type** for consistent patterns
+2. **Message Quality**: Check error message clarity and helpfulness
+3. **Improvement Areas**: Identify messages needing better copy
+4. **User Impact**: See statistics to prioritize UX improvements
 
 ---
 
@@ -323,11 +354,16 @@ Number,Endpoint,Source,Domain,ErrorReason,ExampleErrorMessage,FileReference,Disp
 
 ## Related Documentation
 
-- [Backend Error Messages Displayed in Frontend](backend-error-messages-displayed-in-frontend.md) - Detailed backend error handling
-- [Frontend-Only Error Messages](frontend-only-error-messages.md) - Detailed frontend validation
+- [Backend Error Handling Guide](backend-error-handling-guide.md) - Complete unified guide with endpoint catalog, implementation patterns, and code examples
+- [Frontend-Only Error Messages](frontend-only-error-messages.md) - Detailed frontend validation and client-side error messages
 
 ---
 
-**Last Updated:** 2025-10-23
+## Document Information
+
+**Last Updated:** 2025-10-24
 **Total Errors Cataloged:** 141
 **Coverage:** Complete (Backend + Frontend)
+**Companion Documents:**
+- [Backend Error Handling Guide](backend-error-handling-guide.md) - Implementation patterns and recommendations
+- [Frontend-Only Error Messages](frontend-only-error-messages.md) - Client-side validation details
