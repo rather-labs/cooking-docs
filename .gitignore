@@ -58,5 +58,8 @@ secrets.yaml
 08-documents-to-parse/*.txt
 !08-documents-to-parse/README.md
 
+# Prevent accidentally created processed folder
+08-documents-to-parse/processed/
+
 # Archive large files (optional)
 # 07-archive/

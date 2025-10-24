@@ -113,7 +113,6 @@ The structured documents will follow proper naming conventions after parsing.
 -  ✅ Content is preserved in properly structured documents
 -  ✅ All relevant indexes are updated
 -  ✅ You receive a summary of what was created and deleted
--  📁 Optional: Backup created in `processed/YYYY-MM/` before deletion
 
 **Why delete?**
 - Keeps this folder clean and ready for new content

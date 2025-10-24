@@ -11,14 +11,10 @@
             "id": "6538d84d4d301ad9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-knowledge-base/technical/error-messages-reference-guide.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "error-messages-reference-guide"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dc9f7b3e90dbabb4",
@@ -172,14 +167,31 @@
   },
   "active": "6538d84d4d301ad9",
   "lastOpenFiles": [
+    "06-meetings/2025-10/2025-10-24-daily-standup.md",
+    "08-documents-to-parse/BSC_Integration_Business_Report.md",
+    "07-archive/processed-2025-10-24/BSC_Integration_Business_Report.md",
+    "07-archive/processed-2025-10-24/bnb-report.md",
+    "07-archive/processed-2025-10-24/1inch-integration-proposal.md",
+    "07-archive/processed-2025-10-24",
+    "05-research/bsc-integration-strategy.md",
+    "logs/daily-parse-2025-10-24-182547.log",
+    "08-documents-to-parse/bnb-report.md",
+    "08-documents-to-parse/1inch-integration-proposal.md",
+    "04-knowledge-base/technical/error-messages-reference-guide.md",
+    "08-documents-to-parse/processed/2025-10/2025-10-24-daily-meeting-transcript.md",
+    "08-documents-to-parse/processed/2025-10/2025-10-24-daily-meeting-summary.md",
+    "08-documents-to-parse/processed/2025-10",
+    "08-documents-to-parse/processed",
+    "06-meetings/2025-10-24-daily-standup.md",
+    "logs/daily-parse-2025-10-24-103502.log",
+    "08-documents-to-parse/Daily - Cooking.gg_ 2025_10_24 09_28 GMT-03_00 - Notas de Gemini-2.md",
+    "08-documents-to-parse/Daily - Cooking.gg_ 2025_10_24 09_28 GMT-03_00 - Notas de Gemini.md",
     "04-knowledge-base/technical/backend-error-handling-guide.md",
     "04-knowledge-base/technical/backend-error-messages-comprehensive-report.md",
     "logs/daily-parse-2025-10-24-094535.log",
     "scripts/daily-parse.sh",
     "08-documents-to-parse/Backend Error Messages Report.md",
     "08-documents-to-parse/processed/2025-10/Number representation.md",
-    "08-documents-to-parse/processed/2025-10",
-    "08-documents-to-parse/processed",
     "08-documents-to-parse/Number representation.md",
     "04-knowledge-base/technical/number-normalization-schema.md",
     "04-knowledge-base/business/_index.md",
@@ -188,25 +200,8 @@
     "02-decisions/2025-10-15-jupiter-primary-router.md",
     "02-decisions/2025-09-26-microservices-by-algorithm.md",
     "02-decisions/2025-09-23-indexer-microservices-protocol.md",
-    "02-decisions/2025-08-13-multilevel-referral-program.md",
-    "02-decisions/2025-10-06-clickhouse-two-client-architecture.md",
-    "04-knowledge-base/business/requirements/trading-methods.md",
-    "01-foundation/glossary.md",
-    "02-decisions/2025-07-04-turnkey-wallet-management.md",
-    "02-decisions/2025-09-04-multi-az-deployment-high-availability.md",
-    "02-decisions/2025-10-20-working-guards-on-call-rotation.md",
-    "02-decisions/2025-08-11-feature-freeze-for-stability.md",
-    "02-decisions/2025-08-11-weekly-sprint-calls-with-client.md",
-    "02-decisions/2025-09-04-aws-ecs-over-eks-container-orchestration.md",
-    "02-decisions/2025-08-11-september-beta-launch-timeline.md",
-    "02-decisions/2025-08-20-zero-bridge-fees-strategic-decision.md",
-    "02-decisions/2025-08-11-closed-beta-referral-only-access.md",
-    "02-decisions/2025-10-16-jupiter-transaction-optimization.md",
     "scripts/process_sync_z_meetings.py",
     "07-archive/processed-source-docs/2025-10-20-daily-standups-batch6",
-    "06-meetings/2025-07/daily-standups",
-    "technical",
-    "06-meetings/2025-10",
-    "process_sync_z_meetings.py"
+    "06-meetings/2025-07/daily-standups"
   ]
 }

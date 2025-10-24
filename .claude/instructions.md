@@ -519,7 +519,6 @@ Before finishing, verify:
 **After successful processing:**
 
 - **DELETE the original file from `08-documents-to-parse/`** - This is mandatory
-- Move to `08-documents-to-parse/processed/YYYY-MM/` as backup before deleting (optional)
 - Confirm all content has been properly structured
 - Verify no information was lost
 - For problematic documents: Move to `08-documents-to-parse/review-needed/` with explanation (DO NOT delete these)
@@ -646,9 +645,6 @@ After processing documents, `/maintenance-daily` provides:
    ✅ Processed and deleted:
    - 08-documents-to-parse/original-file.md
    - 08-documents-to-parse/another-file.docx
-
-   Note: Original files have been successfully archived to:
-   - 08-documents-to-parse/processed/2025-10/original-file.md (optional backup)
    ```
 
 4. **Flagged for review:**
@@ -1387,7 +1383,6 @@ When files are uploaded or placed in `08-documents-to-parse/`:
 4. **Clean up (MANDATORY):**
    - **DELETE successfully processed files from `08-documents-to-parse/`**
    - Move problematic files to `08-documents-to-parse/review-needed/`
-   - Optionally backup to `08-documents-to-parse/processed/YYYY-MM/` before deletion
 
 5. **Report results:**
    - Files processed count

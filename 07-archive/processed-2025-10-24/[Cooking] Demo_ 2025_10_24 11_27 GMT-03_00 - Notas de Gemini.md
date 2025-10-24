@@ -1,0 +1,51 @@
+Oct 24, 2025
+
+## \[Cooking\] Demo
+
+Invited [Martin Aranda](mailto:maranda@ratherlabs.com) [Naji Osmat](mailto:naji@ember.app) [Lucas Cufré](mailto:lucascufre@ratherlabs.com) [greg@ember.app](mailto:greg@ember.app) [z@ember.app](mailto:z@ember.app) [Marcos Tacca](mailto:marcostacca@ratherlabs.com) [Shakeib Shaida](mailto:shakeib98@gmail.com) [shak@ember.app](mailto:shak@ember.app)
+
+Attachments [\[Cooking\] Demo](https://www.google.com/calendar/event?eid=MzgzOGRjYmJhMDg5NGIxMWFkNjI3ZGRmOTc5YzI0M2ZfMjAyNTEwMjRUMTQzMDAwWiBsdWNhc2N1ZnJlQHJhdGhlcmxhYnMuY29t) 
+
+Meeting records [Transcript](?tab=t.7qo3h31i1grn) 
+
+### Summary
+
+Lucas Cufré provided updates on issue resolution, noting that many minor issues are being addressed, with a significant portion of frontend issues expected to be resolved by Monday, while backend issues are minimal. They also confirmed the resolution of a major issue regarding linking social accounts and mentioned awaiting deployment of a batch of fixes to production. Zen raised concerns about the QA process and missing P\&L cards, which Gregory Chapman’s Presentation also emphasized, noting issues with Leo's current designs. Lucas Cufré also led a discussion on BNB support, with Shak and Martin Aranda favoring a custom indexer solution due to latency concerns with The Graph. Gregory Chapman’s Presentation and Zen discussed testing, with Zen planning to join testing on Monday after returning from travel, while Gregory Chapman’s Presentation and Naji Osmat discussed on-call engineers.
+
+### Details
+
+* **Meeting Overview and Issue Resolution** Lucas Cufré provided an update on current issues, noting that many minor issues are being addressed, with a significant portion expected to be resolved by Monday ([00:03:43](?tab=t.7qo3h31i1grn#heading=h.qhk71h53e07l)). They also confirmed that a major issue regarding linking social accounts was resolved the previous day and is already fixed in development ([00:00:00](?tab=t.7qo3h31i1grn#heading=h.915hj9x0080y)). Lucas Cufré mentioned that a batch of fixes is awaiting deployment to production, including a security password validation issue that has been resolved ([00:01:14](?tab=t.7qo3h31i1grn#heading=h.1fsxhj70un9p)).
+
+* **Notion Access and UI Review** Lucas Cufré addressed Notion access, explaining that Shik and Zayn were being added as guests to the platform. They indicated that many UI-related comments from Ali have already been resolved, with some still needing review and assignment to the team today ([00:01:14](?tab=t.7qo3h31i1grn#heading=h.1fsxhj70un9p)). Lucas Cufré also shared their screen to review the current state of affairs and emphasized the need to discuss timeframes for resolution with Gregory Chapman’s Presentation and Zen ([00:02:20](?tab=t.7qo3h31i1grn#heading=h.vpjxu97zbf4u)).
+
+* **Frontend and Backend Task Breakdown** Lucas Cufré detailed the task breakdown by domain, highlighting that backend issues are minimal, while frontend issues are more prevalent ([00:03:43](?tab=t.7qo3h31i1grn#heading=h.qhk71h53e07l)). They anticipated that 80-90% of frontend issues, mostly minor, would be fixed by the end of Monday. Lucas Cufré noted that some tasks, like error message normalization and number representation definition updates, would take longer due to the need for a new utility ([00:04:55](?tab=t.7qo3h31i1grn#heading=h.ymtuyb713zln)).
+
+* **QA Process and Current Status** Zen raised concerns about the QA process, questioning why basic QA items were not caught earlier, given that QA was reportedly finished the previous Friday ([00:04:55](?tab=t.7qo3h31i1grn#heading=h.ymtuyb713zln)) ([00:07:27](?tab=t.7qo3h31i1grn#heading=h.fjm99a8ea3zg)). Lucas Cufré clarified that some issues were detected and flagged earlier, while others were more recent findings, acknowledging that some items were indeed missing ([00:06:16](?tab=t.7qo3h31i1grn#heading=h.4nwlll7ik5r1)). Lucas Cufré explained that one of the two QA engineers is currently on leave, leading them to pick up some QA tasks while balancing other responsibilities ([00:08:59](?tab=t.7qo3h31i1grn#heading=h.eds6qa5ffmmn)).
+
+* **P\&L Cards and Design Issues** Gregory Chapman’s Presentation brought up the missing P\&L cards, which Naji Osmat also noted, stressing their importance as a basic feature ([00:08:59](?tab=t.7qo3h31i1grn#heading=h.eds6qa5ffmmn)). Gregory Chapman’s Presentation indicated that Leo's current designs for P\&L cards were not appropriate, as they were only for mobile and did not correctly display profit and loss information. Gregory Chapman’s Presentation confirmed that Leo had been messaged this morning and should be working on rectifying the designs ([00:24:38](?tab=t.7qo3h31i1grn#heading=h.b75inmjrdffn)).
+
+* **BNB Support Discussion** Lucas Cufré initiated a discussion on BNB support, prompted by Axiom’s integration of BNB as a supported chain, noting its massive memecoin ecosystem. They identified three key points for resolution: the indexer, wallet management system, and routing service for transactions ([00:11:01](?tab=t.7qo3h31i1grn#heading=h.avv6a87yzq2r)). Lucas Cufré suggested exploring DEX aggregators like 1inch and OpenOcean for routing, but emphasized the indexer solution as the most critical point for in-depth discussion ([00:12:21](?tab=t.7qo3h31i1grn#heading=h.bqkjmghfl9w8)).
+
+* **Indexer Solution Options** Lucas Cufré presented two options for the indexer solution: building a custom indexer, which would offer complete ownership and understanding but take more time, or leveraging a ready-made solution like The Graph, which is solid but introduces external dependencies and potential outages ([00:13:43](?tab=t.7qo3h31i1grn#heading=h.quivssw70596)). Martin Aranda clarified that The Graph is not an out-of-the-box solution, requiring custom work for data indexing and maintenance, and potentially manual support for new protocols ([00:14:59](?tab=t.7qo3h31i1grn#heading=h.o5of6woaiw5a)).
+
+* **Decision on Custom Indexer Route** Shak favored the custom indexer route due to concerns about latency with The Graph, which they deemed suitable for dashboards but not for the required real-time data ([00:16:21](?tab=t.7qo3h31i1grn#heading=h.jczctcsqxrxz)). Martin Aranda agreed, stating they are researching a mature framework for building EVM indexers that would offer a hybrid solution, combining custom design with a foundational framework to meet speed requirements. Lucas Cufré concluded that they would perform a deep dive on this, preparing a document with ideas and time estimates, aiming for the same level of support for BNB as for Solana ([00:17:27](?tab=t.7qo3h31i1grn#heading=h.5x5cejgumfyq)).
+
+* **On-Call Engineers and Metrics** Naji Osmat inquired about the discussion concerning on-call engineers, to which Lucas Cufré confirmed an agreement has been reached to add working cards around the clock once actual users are added to the platform ([00:19:46](?tab=t.7qo3h31i1grn#heading=h.y3f5nchg4zxs)). Lucas Cufré also raised two issues: Onramper has not yet given approval for integration despite charging for their service, and agreement is needed on initial metrics for integration, with PostHog being considered as an inexpensive solution ([00:20:48](?tab=t.7qo3h31i1grn#heading=h.ip9yd7d87t26)).
+
+* **Testing and First Impressions** Gregory Chapman’s Presentation and Zen discussed testing, with Zen planning to join testing on Monday after returning from travel, as their specific computer for testing is unavailable ([00:21:59](?tab=t.7qo3h31i1grn#heading=h.iuldf2v8voqo)). Gregory Chapman’s Presentation clarified that initial impressions indicate the system's speed is good, but the overall feel can be clunky, though not significantly slower than competitors like GMGN ([00:21:59](?tab=t.7qo3h31i1grn#heading=h.iuldf2v8voqo)). Zen intends to conduct side-by-side comparisons with other platforms next week to assess loading speeds for charts and overall user experience for new users like Rob ([00:23:31](?tab=t.7qo3h31i1grn#heading=h.s01zb68bwv2)).
+
+* **Ongoing QA and Pressure on Development Team** Zen and Gregory Chapman’s Presentation discussed the ongoing QA efforts, acknowledging that many issues should have been caught earlier by the QA team. Gregory Chapman’s Presentation assured Zen they would continue to press Lucas Cufré and their team, especially over the weekend, to ensure fixes are implemented ([00:27:13](?tab=t.7qo3h31i1grn#heading=h.pgdfkyra370o)). They agreed that stringent testing by Gregory Chapman’s Presentation, Naji Osmat, Ali, and Shakib is crucial to catch high-level issues before wider release ([00:26:16](?tab=t.7qo3h31i1grn#heading=h.88vw9jxpf6cw)).
+
+### Suggested next steps
+
+- [ ] Lucas Cufré will re-tape the video and send it to Zen \- in a couple of hours.  
+- [ ] Lucas Cufré will keep the team posted through the Telegram channel regarding the state of the issues.  
+- [ ] Lucas Cufré will get everything together in a bundle and send the information for the next roadmap in an email.  
+- [ ] Lucas Cufré will resurface the email about the initial metrics to start integrating with a follow-up email for Naji Osmat, Gregory Chapman's Presentation, and Zen \- to give their thoughts and approve using PostHog as a solution for metric tracking.  
+- [ ] Gregory Chapman's Presentation will ping somebody within OnRamper organization about the approval and the charge.  
+- [ ] Gregory Chapman's Presentation will keep putting pressure on Lucas Cufré to work throughout the weekend.  
+- [ ] Lucas Cufré and Martin Aranda will do a deep dive into the research of custom indexer route for VMV support and come up with a document with ideas and a time estimate for such.
+
+*You should review Gemini's notes to make sure they're accurate. [Get tips and learn how Gemini takes notes](https://support.google.com/meet/answer/14754931)*
+
+*Please provide feedback about using Gemini to take notes in a [short survey.](https://google.qualtrics.com/jfe/form/SV_9vK3UZEaIQKKE7A?confid=ovqFy-w5ZLEXAHQ3e4C2DxIOOAIIigIgABgECA&detailid=unspecified)*
